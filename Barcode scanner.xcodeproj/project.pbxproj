@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		1B0B0CE52B72DD11008867DA /* Barcode_scannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0B0CE42B72DD11008867DA /* Barcode_scannerApp.swift */; };
-		1B0B0CE72B72DD11008867DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0B0CE62B72DD11008867DA /* ContentView.swift */; };
+		1B0B0CE72B72DD11008867DA /* Princeps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0B0CE62B72DD11008867DA /* Princeps.swift */; };
 		1B0B0CE92B72DD13008867DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B0B0CE82B72DD13008867DA /* Assets.xcassets */; };
 		1B0B0CED2B72DD13008867DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B0B0CEC2B72DD13008867DA /* Preview Assets.xcassets */; };
+		1B0B0CF42B72DE47008867DA /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0B0CF32B72DE47008867DA /* Scanner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B0B0CE12B72DD11008867DA /* Barcode scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Barcode scanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B0B0CE42B72DD11008867DA /* Barcode_scannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barcode_scannerApp.swift; sourceTree = "<group>"; };
-		1B0B0CE62B72DD11008867DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1B0B0CE62B72DD11008867DA /* Princeps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Princeps.swift; sourceTree = "<group>"; };
 		1B0B0CE82B72DD13008867DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B0B0CEA2B72DD13008867DA /* Barcode_scanner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Barcode_scanner.entitlements; sourceTree = "<group>"; };
 		1B0B0CEC2B72DD13008867DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1B0B0CF32B72DE47008867DA /* Scanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scanner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				1B0B0CE42B72DD11008867DA /* Barcode_scannerApp.swift */,
-				1B0B0CE62B72DD11008867DA /* ContentView.swift */,
+				1B0B0CE62B72DD11008867DA /* Princeps.swift */,
+				1B0B0CF32B72DE47008867DA /* Scanner.swift */,
 				1B0B0CE82B72DD13008867DA /* Assets.xcassets */,
 				1B0B0CEA2B72DD13008867DA /* Barcode_scanner.entitlements */,
 				1B0B0CEB2B72DD13008867DA /* Preview Content */,
@@ -139,7 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B0B0CE72B72DD11008867DA /* ContentView.swift in Sources */,
+				1B0B0CE72B72DD11008867DA /* Princeps.swift in Sources */,
+				1B0B0CF42B72DE47008867DA /* Scanner.swift in Sources */,
 				1B0B0CE52B72DD11008867DA /* Barcode_scannerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +273,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera to scan barcode";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -307,6 +312,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera to scan barcode";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
