@@ -22,6 +22,7 @@
 		1B0B0CEA2B72DD13008867DA /* Barcode_scanner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Barcode_scanner.entitlements; sourceTree = "<group>"; };
 		1B0B0CEC2B72DD13008867DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1B0B0CF32B72DE47008867DA /* Scanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scanner.swift; sourceTree = "<group>"; };
+		1BAC73532B72E3F000FCFAA7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +39,7 @@
 		1B0B0CD82B72DD11008867DA = {
 			isa = PBXGroup;
 			children = (
+				1BAC73532B72E3F000FCFAA7 /* README.md */,
 				1B0B0CE32B72DD11008867DA /* Barcode scanner */,
 				1B0B0CE22B72DD11008867DA /* Products */,
 			);
