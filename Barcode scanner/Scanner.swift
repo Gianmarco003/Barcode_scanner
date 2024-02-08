@@ -8,9 +8,9 @@
 import UIKit
 import AVFoundation
 
-enum CameraError: String {
-    case invalidDeviceInput = "Something wrong with the camera."
-    case invalidScannedValue = "Value scanned is not valid. This app scans EAN-8 and EAN-13."
+enum CameraError {
+    case invalidDeviceInput
+    case invalidScannedValue
 }
 
 protocol ScannerDelegate: class{
@@ -41,7 +41,7 @@ final class Scanner: UIViewController {
             scannerDelegate?.didSurface(error: .invalidDeviceInput)
             return
         }
-        previewLayer?.frame = view.layer.bounds
+        previewLayer.frame = view.layer.bounds
     }
     
     private func setupCaptureSession() {

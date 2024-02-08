@@ -12,6 +12,7 @@
 		1B0B0CE92B72DD13008867DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B0B0CE82B72DD13008867DA /* Assets.xcassets */; };
 		1B0B0CED2B72DD13008867DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B0B0CEC2B72DD13008867DA /* Preview Assets.xcassets */; };
 		1B0B0CF42B72DE47008867DA /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0B0CF32B72DE47008867DA /* Scanner.swift */; };
+		1B47653B2B756DB9009B069C /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B47653A2B756DB9009B069C /* ScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1B0B0CEA2B72DD13008867DA /* Barcode_scanner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Barcode_scanner.entitlements; sourceTree = "<group>"; };
 		1B0B0CEC2B72DD13008867DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1B0B0CF32B72DE47008867DA /* Scanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scanner.swift; sourceTree = "<group>"; };
+		1B47653A2B756DB9009B069C /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 		1BAC73532B72E3F000FCFAA7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,6 +61,7 @@
 				1B0B0CE42B72DD11008867DA /* Barcode_scannerApp.swift */,
 				1B0B0CE62B72DD11008867DA /* Princeps.swift */,
 				1B0B0CF32B72DE47008867DA /* Scanner.swift */,
+				1B47653A2B756DB9009B069C /* ScannerView.swift */,
 				1B0B0CE82B72DD13008867DA /* Assets.xcassets */,
 				1B0B0CEA2B72DD13008867DA /* Barcode_scanner.entitlements */,
 				1B0B0CEB2B72DD13008867DA /* Preview Content */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B0B0CE72B72DD11008867DA /* Princeps.swift in Sources */,
+				1B47653B2B756DB9009B069C /* ScannerView.swift in Sources */,
 				1B0B0CF42B72DE47008867DA /* Scanner.swift in Sources */,
 				1B0B0CE52B72DD11008867DA /* Barcode_scannerApp.swift in Sources */,
 			);
