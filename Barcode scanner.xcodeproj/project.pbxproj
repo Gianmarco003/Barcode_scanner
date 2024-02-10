@@ -13,8 +13,8 @@
 		1B0B0CED2B72DD13008867DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B0B0CEC2B72DD13008867DA /* Preview Assets.xcassets */; };
 		1B0B0CF42B72DE47008867DA /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0B0CF32B72DE47008867DA /* Scanner.swift */; };
 		1B47653B2B756DB9009B069C /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B47653A2B756DB9009B069C /* ScannerView.swift */; };
-		1BC0BD452B7778F300247FE5 /* Error code.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1BC0BD432B7778F300247FE5 /* Error code.jpeg */; };
 		1BC0BD462B7778F300247FE5 /* PrincepsView.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC0BD442B7778F300247FE5 /* PrincepsView.png */; };
+		1BC0BD482B7779F100247FE5 /* ErrorCode.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC0BD472B7779F100247FE5 /* ErrorCode.png */; };
 		1BCD08C52B77727000FC3B2F /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCD08C42B77727000FC3B2F /* Alert.swift */; };
 		1BCD08C72B7772C700FC3B2F /* BarcodeScannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCD08C62B7772C700FC3B2F /* BarcodeScannerViewModel.swift */; };
 /* End PBXBuildFile section */
@@ -29,8 +29,8 @@
 		1B0B0CF32B72DE47008867DA /* Scanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scanner.swift; sourceTree = "<group>"; };
 		1B47653A2B756DB9009B069C /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 		1BAC73532B72E3F000FCFAA7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		1BC0BD432B7778F300247FE5 /* Error code.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Error code.jpeg"; sourceTree = "<group>"; };
 		1BC0BD442B7778F300247FE5 /* PrincepsView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PrincepsView.png; sourceTree = "<group>"; };
+		1BC0BD472B7779F100247FE5 /* ErrorCode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ErrorCode.png; sourceTree = "<group>"; };
 		1BCD08C42B77727000FC3B2F /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		1BCD08C62B7772C700FC3B2F /* BarcodeScannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,8 +90,8 @@
 		1BC0BD422B7778DC00247FE5 /* Previews */ = {
 			isa = PBXGroup;
 			children = (
-				1BC0BD432B7778F300247FE5 /* Error code.jpeg */,
 				1BC0BD442B7778F300247FE5 /* PrincepsView.png */,
+				1BC0BD472B7779F100247FE5 /* ErrorCode.png */,
 			);
 			path = Previews;
 			sourceTree = "<group>";
@@ -179,7 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BC0BD452B7778F300247FE5 /* Error code.jpeg in Resources */,
+				1BC0BD482B7779F100247FE5 /* ErrorCode.png in Resources */,
 				1B0B0CED2B72DD13008867DA /* Preview Assets.xcassets in Resources */,
 				1BC0BD462B7778F300247FE5 /* PrincepsView.png in Resources */,
 				1B0B0CE92B72DD13008867DA /* Assets.xcassets in Resources */,
