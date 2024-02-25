@@ -15,7 +15,7 @@ struct Princeps: View {
         NavigationView{
             VStack{
                 ScannerView(scannedCode: $viewModel.scannedCode, alertItem: $viewModel.alertItem)
-                    .frame(maxWidth: .infinity, maxHeight: 250)
+                    .frame(maxHeight: 250)
                 Spacer()
                     .frame(height: 100)
                 Label("Scan barcode", systemImage: "barcode.viewfinder")
